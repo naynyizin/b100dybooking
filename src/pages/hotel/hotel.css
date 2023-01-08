@@ -1,0 +1,159 @@
+.hotel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.hotel-wrapper {
+  width: 100%;
+  max-width: 1024px;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  position: relative;
+}
+
+.loc {
+  font-weight: 500;
+  color: rgb(24, 127, 212);
+}
+
+.free-set {
+  color: rgb(8, 162, 8);
+}
+
+.hotel-images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.hotel-img {
+  width: 32%;
+  cursor: pointer;
+}
+
+.hotel-desc {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.desc-left {
+  flex: 2.5;
+  text-align: start;
+}
+
+.desc-left > p {
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+.desc-right {
+  flex: 1;
+}
+
+.desc-right-wrapper {
+  background-color: rgb(225, 240, 245);
+  padding: 15px 20px;
+}
+
+.desc-right-wrapper > h3 {
+  color: #555;
+}
+
+.desc-right-wrapper > p {
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+.desc-right-wrapper > div {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.desc-right-wrapper > div > span {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.desc-btn {
+  width: 100%;
+  background-color: #0071c2;
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 0;
+  cursor: pointer;
+}
+
+.a-btn {
+  width: max-content;
+  position: absolute;
+  padding: 7px 35px;
+  top: 20px;
+  right: 0;
+}
+
+.f-con {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.slide {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 999;
+}
+
+.slide > img {
+  height: 80vh;
+  object-fit: cover;
+  user-select: none;
+}
+
+.cross,
+.left-arrow,
+.right-arrow {
+  position: absolute;
+}
+
+.cross {
+  font-size: 2.5rem;
+  color: lightgray;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.left-arrow {
+  font-size: 3rem;
+  color: lightgray;
+  top: 50%;
+  left: 5%;
+  cursor: pointer;
+}
+
+.right-arrow {
+  font-size: 3rem;
+  color: lightgray;
+  top: 50%;
+  right: 5%;
+  cursor: pointer;
+}

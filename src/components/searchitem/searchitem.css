@@ -1,0 +1,95 @@
+.search-result {
+  height: max-content;
+  border: 0.5px solid #bbb;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.search-result-wrapper {
+  display: flex;
+  gap: 15px;
+}
+
+.result-desc {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.result-img {
+  width: 200px;
+  height: 200px;
+}
+
+.desc-title {
+  font-size: 1.5rem;
+  color: rgb(19, 127, 215);
+}
+
+.free-section {
+  width: max-content;
+  background-color: rgb(4, 162, 4);
+  color: #fff;
+  border-radius: 3px;
+  padding: 2px 3px;
+}
+
+.room {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cancel {
+  color: rgb(4, 162, 4);
+  font-size: 15 px;
+  font-weight: bold;
+}
+
+.cancel-text {
+  color: rgb(4, 162, 4);
+}
+
+.detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.detail-upper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-upper > span {
+  background-color: darkblue;
+  color: #fff;
+  border-radius: 3px 3px 3px 0;
+  padding: 3px;
+}
+
+.detail-bottom {
+  text-align: end;
+}
+
+.detail-bottom > p {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.detail-bottom > small {
+  color: #555;
+}
+
+.detail-bottom > button {
+  background-color: rgb(15, 117, 200);
+  color: #fff;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  padding: 7px 15px;
+  margin-top: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.properties {
+  width: 100%;
+  max-width: 1024px;
+}
+
+.properties-title {
+  font-size: 1.5rem;
+}
+
+.properties-container {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.properties-item {
+  flex: 1;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.prop-img {
+  width: 100%;
+}
+
+.properties-item div {
+  font-size: 15px;
+}
+
+.properties-item span {
+  color: rgb(116, 115, 115);
+  font-size: 12px;
+}

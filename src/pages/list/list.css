@@ -1,0 +1,108 @@
+.list-container {
+  height: max-content;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.list-wrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 20px;
+}
+
+.list-search {
+  height: max-content;
+  flex: 1;
+  background-color: #febb02;
+  border-radius: 10px;
+  padding: 10px;
+
+  position: sticky;
+  top: 15px;
+}
+
+.list-result {
+  flex: 3;
+}
+
+.list-title {
+  color: #555;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px 0;
+
+  position: relative;
+}
+
+.list-item > label {
+  font-size: 13px;
+}
+
+.list-item > input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.list-item > input:focus {
+  outline: none;
+}
+
+.list-item > span {
+  background-color: #f4f4f4;
+  color: #555;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.list-date {
+  position: absolute;
+  top: 110%;
+  left: 0;
+
+  z-index: 2;
+}
+
+.option-wrapper {
+  padding: 5px;
+  display: grid;
+  place-items: center;
+}
+
+.list-btn {
+  width: 100%;
+  background-color: #0071c2;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.lis-option-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.lis-option-item > input {
+  width: 50px;
+}
+
+.lis-option-item > input:focus {
+  outline: none;
+}

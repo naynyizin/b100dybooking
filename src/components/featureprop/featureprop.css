@@ -1,0 +1,56 @@
+.fp {
+  width: 100%;
+  max-width: 1024px;
+}
+
+.fp-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.fp-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  gap: 5px;
+}
+
+.fp-img {
+  width: 100%;
+}
+
+.mid-text {
+  display: flex;
+  gap: 10px;
+}
+
+.sp-text {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.b-text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.rate {
+  background-color: rgb(2, 2, 120);
+  color: #fff;
+  font-size: 13px;
+  border-radius: 3px 3px 3px 0;
+  padding: 3px;
+}
+
+.spec {
+  font-size: 11px;
+}
+
+.review {
+  font-size: 10px;
+}
